@@ -1,15 +1,11 @@
 #include <QtGui/QApplication>
-#include "lemonadelaunch.h"
+#include "lemonadelauncher.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    LemonadeLaunch w;
-#if defined(Q_WS_S60)
-    w.showMaximized();
-#else
+    LemonadeLauncher w;
     w.show();
-#endif
     
     return a.exec();
 }

@@ -1,18 +1,21 @@
 <ui version="4.0">
- <class>LemonadeLaunch</class>
- <widget class="QMainWindow" name="LemonadeLaunch" >
+ <class>LemonadeLauncher</class>
+ <widget class="QMainWindow" name="LemonadeLauncher" >
   <property name="geometry" >
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>360</width>
-    <height>640</height>
+    <width>400</width>
+    <height>300</height>
    </rect>
   </property>
   <property name="windowTitle" >
-   <string>LemonadeLaunch</string>
+   <string>LemonadeLauncher</string>
   </property>
+  <widget class="QMenuBar" name="menuBar" />
+  <widget class="QToolBar" name="mainToolBar" />
   <widget class="QWidget" name="centralWidget" />
+  <widget class="QStatusBar" name="statusBar" />
  </widget>
  <layoutDefault spacing="6" margin="11" />
  <pixmapfunction></pixmapfunction>
